@@ -1,0 +1,23 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg");
+color: white;
+}
+h1 {
+  background-color: Brown;
+}
+.headings {
+  text-transform:capitalize;
+}
+a {
+  color: yellow;
+}
+.brown {
+  background-color:brown;
+}
+#about-me {
+  background-color:purple;
+}
+.black {
+  color:black;
+}

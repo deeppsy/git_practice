@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My cheat sheet for HTML tables because it's scary!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link href ="styles.css" type = "text/css" rel = "stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Deepsy's website</h1>
+      <h3>It's basically a cheat sheet for HTML tables</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href = "#introduction">Introduction</a></li>
+        <li><a href = "#mainpoint">Main point</a></li>
+        <li><a href = "#about-me">About Me</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id = "introduction">
+        <h4>Introduction</h4>
+        <p>This is meant to tell you a bit about me but I'm still a small boy and there's nothing to tell. Sorry! :D</p>
+      </section>
+      <section id = "mainpoint">
+        <h4 class = "headings">Let's get down to it</h4>
+        <p class = "headings">Here is a table describing all the table tags in HTML tables</p>
+        <h3 class = "headings black">important table tags</h3>
+        <table border>
+          <thead>
+            <tr class = "brown">
+              <th scope = "col">No</th>
+              <th scope = "col">Tag</th>
+              <th scope = "col">Tag Name</th>
+              <th scope = "col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope ="row">1</th>
+              <td>&lt;table&gt;</td>
+              <td>table</td>
+              <td>This creates the table</td>
+            </tr>
+            <tr class = "brown">
+              <th scope = "row">2</th>
+              <td>&lt;thead&gt;</td>
+              <td>Table head</td>
+              <td>The headings of the table usually go here</td>
+            </tr>
+            <tr>
+              <th scope = "row">3</th>
+              <td>&lt;tbody&gt;</td>
+              <td>Table body</td>
+              <td>The body of the table usually go here</td>
+            </tr>
+            <tr class = "brown">
+              <th scope ="row">4</th>
+              <td>&lt;tfoot&gt;</td>
+              <td>Table footer</td>
+              <td>The footer of the table usually go here. For example, doing a spreadsheet that has a row for "Total"</td>
+            </tr>
+            <tr>
+              <th scope ="row">5</th>
+              <td>&lt;td&gt;</td>
+              <td>Table data</td>
+              <td>This allow us input data into the cells</td>
+            </tr>
+            <tr class = "brown">
+              <th scope ="row">6</th>
+              <td>&lt;tr&gt;</td>
+              <td>Table row</td>
+              <td>This creates a row for you.</td>
+            </tr>
+            <tr>
+              <th scope ="row">7</th>
+              <td>&lt;th&gt;</td>
+              <td>Table head</td>
+              <td>This is usally used to input the headings not the td.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 class = "headings black">important table attributes</h3>
+        <p class = "headings">Here is a table describing the important table attributes I don't want to forget</p>
+        <table border>
+          <thead>
+            <tr class = "brown">
+              <th scope ="col">No</th>
+              <th scope = "col">Attribute</th>
+              <th scope = "col">Name</th>
+              <th scope = "col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope ="row">1</th>
+              <td>&lt;colspan&gt;</td>
+              <td>Column Span</td>
+              <td>This helps extend the no of column the th or td tag extends to.</td>
+            </tr>
+            <tr class = "brown">
+              <th scope ="row">2</th>
+              <td>&lt;rowspan&gt;</td>
+              <td>Row Span</td>
+              <td>This helps extend the no of row the th or td tag extends to.</td>
+            </tr>
+            <tr>
+              <th scope ="row">3</th>
+              <td>scope</td>
+              <td>scope</td>
+              <td>This enumerated attribute defines the cells that the "th" element relates to. It may have the following values:<br>
+row: The header relates to all cells of the row it belongs to.<br>
+col: The header relates to all cells of the column it belongs to.</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </section>
+    </main>
+    <footer id = "about-me">
+      <p>
+        Name: Adanikin Oladipupo <br>
+        email: adanikindipo@gmail.com
+      </p>
+    </footer>
+  </body>
+
+</html>
